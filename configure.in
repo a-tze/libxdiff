@@ -6,9 +6,10 @@ AM_CONFIG_HEADER(config.h)
 dnl Checks for programs.
 AC_PROG_MAKE_SET
 AC_PROG_CC
-AC_PROG_RANLIB
+LT_INIT
 AC_PROG_INSTALL
 AC_PROG_LIBTOOL
+AM_PROG_CC_C_O
 
 CFLAGS="${CFLAGS=}"
 
@@ -26,7 +27,5 @@ AC_C_BIGENDIAN
 
 dnl Checks for library functions.
 AC_CHECK_FUNCS(memset memcmp memchr memcpy strlen malloc free realloc)
-
-
 AC_OUTPUT(Makefile xdiff/Makefile test/Makefile tools/Makefile man/Makefile)
 

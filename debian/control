@@ -1,7 +1,7 @@
 Source: libxdiff
 Priority: extra
 Maintainer: Esteban Santana Santana <MentalPower@GMail.com>
-Build-Depends: debhelper (>= 9.0.0), dh-autoreconf, hardening-wrapper
+Build-Depends: debhelper (>= 9.0.0), dh-autoreconf
 Standards-Version: 3.9.3
 Section: libs
 Homepage: http://www.xmailserver.org/xdiff-lib.html
